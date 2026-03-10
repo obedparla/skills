@@ -40,7 +40,7 @@ This skill commits staged code using GitButler's CLI (`but`), pushes, and create
 
 7. Return the PR URL to the user.
 
-8. Run a code review on the PR using the Skill tool with `skill: "review"` and pass the PR URL as args. Only report issues and potential bugs — no overview, no summaries, no praise. If no issues found, say so in one line.
+8. Review the PR diff for bugs, logic errors, and security issues. Only report problems — no overview, no summaries, no praise, no style nits. If no issues found, say so in one line.
 
 ## Important
 - Do NOT use git to create branches. Always use `but branch new`.
